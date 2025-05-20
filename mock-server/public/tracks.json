@@ -1,0 +1,102 @@
+[
+    {
+      "id": 1,
+      "title": "One Sweet Day",
+      "description": "Mariah Carey & Boyz II Men"
+    },
+    {
+      "id": 2,
+      "title": "I Will Always Love You",
+      "description": "Whitney Houston"
+    },
+    {
+      "id": 3,
+      "title": "I Want It That Way",
+      "description": "Backstreet Boys"
+    },
+    {
+      "id": 4,
+      "title": "Macarena (Bayside Boys Mix)",
+      "description": "Los Del Rio"
+    },
+    {
+      "id": 5,
+      "title": "Waterfalls",
+      "description": "TLC"
+    },
+    {
+      "id": 6,
+      "title": "No Scrubs",
+      "description": "TLC"
+    },
+    {
+      "id": 7,
+      "title": "I Swear",
+      "description": "All-4-One"    
+    },
+    {
+      "id": 8,
+      "title": "Gangsta's Paradise",
+      "description": "Coolio featuring L.V."
+    },
+    {
+      "id": 9,
+      "title": "Kiss From a Rose",
+      "description": "Seal"
+    },
+    {
+      "id": 10,
+      "title": "U Can't Touch This",
+      "description": "MC Hammer"
+    },
+    {
+      "id": 11,
+      "title": "Nothing Compares 2 U",
+      "description": "Sin ad O'Connor"
+    },
+    {
+      "id": 12,
+      "title": "Viva Forever",
+      "description": "Spice Girls"
+    },
+    {
+      "id": 13,
+      "title": "Say You'll Be There",
+      "description": "Spice Girls"
+    },
+    {
+      "id": 14,
+      "title": "Wannabe",
+      "description": "Spice Girls"  
+    },
+    {
+      "id": 15,
+      "title": "I'll Be Missing You",
+      "description": "Puff Daddy & Faith Evans featuring 112"
+    },
+    {
+      "id": 16,
+      "title": "The Sign",
+      "description": "Ace of Base"
+    },
+    {
+      "id": 17,
+      "title": "The Most Beautiful Girl in the World",
+      "description": "Prince"
+    },
+    {
+      "id": 18,
+      "title": "Shoop",
+      "description": "Salt-N-Pepa"
+    },
+    {
+      "id": 19,
+      "title": "Regulate",
+      "description": "Warren G featuring Nate Dogg" 
+    },
+    {
+      "id": 20,
+      "title": "Livin' La Vida Loca",
+      "description": "Ricky Martin"
+    }
+  ]

@@ -1,0 +1,11 @@
+{
+    "name": "mock-server",
+    "version": "1.0.0",
+    "description": "Mock server",
+    "main": "index.js",
+    "scripts": {
+        "start": "http-server -p 8080 --cors"
+    },
+    "dependencies": {
+    }
+}
