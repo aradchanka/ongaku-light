@@ -1,87 +1,91 @@
-# Welcome to React Router!
+# React Music Player
 
-A modern, production-ready template for building full-stack React applications using React Router.
+This project is a web-based music player application built with React. It allows users to navigate a music library, explore different artists and albums, and view details for individual tracks.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## Key Features
 
-## Features
+*   Browse and discover music through "Explore" and "Library" sections.
+*   View detailed information about artists.
+*   Explore albums by specific artists.
+*   See details for individual tracks.
+*   (Note: Playback functionality may be available for tracks, but this is not explicitly confirmed by the current file structure.)
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+## Tech Stack
+
+*   React
+*   React Router
+*   TypeScript
+*   Vite
+*   Tailwind CSS
 
 ## Getting Started
 
-### Installation
+### Prerequisites
 
-Install the dependencies:
+Ensure you have Node.js and npm (or a compatible package manager like Yarn) installed on your system.
 
-```bash
-npm install
-```
+### Installation & Setup
 
-### Development
+1.  Clone the repository:
+    ```bash
+    git clone <repository-url>
+    ```
+2.  Install the dependencies:
+    ```bash
+    npm install
+    ```
 
-Start the development server with HMR:
+### Running the Application
+
+#### Development Mode
+
+To run the application in development mode:
 
 ```bash
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
+This will start a development server, typically accessible at `http://localhost:3000` (the exact port will be displayed in your console). The development server uses a mock API (`mock-server/`) which serves data from `tracks.json` to simulate a backend.
 
-## Building for Production
+#### Building for Production
 
-Create a production build:
+To build the application for production:
 
 ```bash
 npm run build
 ```
 
-## Deployment
+#### Running in Production Mode
 
-### Docker Deployment
-
-To build and run using Docker:
+After building the application, you can serve the production build using:
 
 ```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
+npm run start
 ```
+This command will start a server to serve the optimized, static assets.
 
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
+## Project Structure
 
 ```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
+react-music-player/
+├── app/                # Contains the core application code (React components, routes, hooks, utils)
+├── mock-server/        # Includes a simple mock server and data (tracks.json) for development
+├── public/             # Static assets like favicon.ico
+├── .dockerignore       # Specifies intentionally untracked files for Docker
+├── .gitignore          # Specifies intentionally untracked files for Git
+├── Dockerfile          # Instructions for building a Docker image
+├── README.md           # This file, providing project documentation
+├── package-lock.json   # Records exact versions of dependencies
+├── package.json        # Project metadata, dependencies, and scripts
+├── react-router.config.ts # Configuration for React Router
+├── tsconfig.json       # TypeScript compiler configuration
+└── vite.config.ts      # Vite configuration file
 ```
 
-## Styling
+## Typechecking
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+This project uses TypeScript for static typing. To check for type errors, run:
 
----
-
-Built with ❤️ using React Router.
+```bash
+npm run typecheck
+```
