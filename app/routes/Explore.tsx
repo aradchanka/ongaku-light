@@ -1,5 +1,5 @@
 import type { Route } from "./+types/Explore";
-import TrackCardList from "../tracks/TrackCardList";
+import TrackCardList from "../features/tracks/TrackCardList";
 
 export function meta({}: Route.MetaArgs) {
   return [

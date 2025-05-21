@@ -1,18 +1,12 @@
+import useFetch from "~/shared/hooks/useFetch";
 import TrackCard from "./TrackCard";
-import { useEffect, useState } from "react";
 
 export default function TrackCardList() {
-    const [cards, setCards] = useState<TrackCard[]>([]);
+    const [cards, error, loading] = useFetch<TrackCard[]>("http://localhost:8080/tracks.json");
     
-    useEffect(() => {
-        const fetchTracks = async () => {
-            const response = await fetch("http://localhost:8080/tracks.json");
-            const data = await response.json();
-            console.log(data);  
-            setCards(data);
-        };
-        fetchTracks();
-    }, []);
+    if (loading) return <div>Loading...</div>;
+    if (error) return <div>Error: {error}</div>;
+    if (!cards) return <div>No cards found</div>;
     
     return (
     <div>
