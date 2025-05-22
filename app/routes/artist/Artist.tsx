@@ -1,11 +1,11 @@
 import type { Route } from "./+types/Artist";
 import { useParams } from "react-router";
 import { useEffect, useState } from "react";
-import { Artist as ArtistType } from "~/features/artists/artist.types";
 import useFetch from "~/shared/hooks/useFetch";
+import type { Artist } from "~/features/artists/artist.types";
 
 export function meta({ data }: Route.MetaArgs) {
-  const artistName = (data as { artistData?: ArtistType })?.artistData?.name;
+  const artistName = (data as { artistData?: Artist })?.artistData?.name;
   return [
     { title: artistName ? `Music: ${artistName}` : "Music: Artist" },
     { name: "description", content: artistName ? `Discover music by ${artistName}` : "Artist details page" },
@@ -14,12 +14,12 @@ export function meta({ data }: Route.MetaArgs) {
 
 export default function Artist() {
   const { artistId } = useParams();
-  const [artistData, setArtistData] = useState<ArtistType | null>(null);
+  const [artistData, setArtistData] = useState<Artist | null>(null);
   // isLoading state is managed by useFetch, but we need a local one for the find operation
   const [isLoading, setIsLoading] = useState(true); 
   const [error, setError] = useState<string | null>(null);
 
-  const [allArtists, fetchError, isLoadingAllArtists] = useFetch<ArtistType[]>('/artists.json');
+  const [allArtists, fetchError, isLoadingAllArtists] = useFetch<Artist[]>('http://localhost:8080//artists.json');
 
   useEffect(() => {
     // Overall loading state depends on fetching AND finding the artist
