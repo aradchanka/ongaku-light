@@ -1,27 +1,22 @@
 import useFetch from "~/shared/hooks/useFetch";
 import TrackCard from "./TrackCard";
+import type { Track } from "./track";
 
 export default function TrackCardList() {
-    const [cards, error, loading] = useFetch<TrackCard[]>("http://localhost:8080/tracks.json");
+    const [tracks, error, loading] = useFetch<Track[]>("http://localhost:8080/tracks.json");
     
     if (loading) return <div>Loading...</div>;
     if (error) return <div>Error: {error}</div>;
-    if (!cards) return <div>No cards found</div>;
+    if (!tracks) return <div>No tracks found</div>;
     
     return (
     <div>
-      <h1>Tracks ({cards.length})</h1>
+      <h1>Tracks ({tracks.length})</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {cards.map((card) => (
-            <TrackCard key={card.id} id={card.id.toString()} title={card.title} description={card.description} />
+        {tracks.map((track) => (
+            <TrackCard key={track.id} id={track.id.toString()} title={track.title} description={track.description} />
         ))}
       </div> 
     </div>
   );
-}
-
-interface TrackCard {
-    id: number;   
-    title: string;
-    description: string;
 }
