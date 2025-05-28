@@ -1,46 +1,64 @@
 [
   {
     "id": 1,
-    "name": "The Cosmic Wave",
-    "bio": "An indie rock band known for their ethereal soundscapes and introspective lyrics.",
-    "imageUrl": "https://via.placeholder.com/400x400?text=The+Cosmic+Wave",
+    "name": "The Lumineers",
+    "bio": "The Lumineers is an American indie folk band formed in Denver, Colorado in 2005. The founding members are Wesley Schultz and Jeremiah Fraites. Known for their folk-influenced sound and heartfelt storytelling.",
+    "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBt9H9A-krge4dmlhtLM1qQfVWjf6z_R-ISC7ZbABjjI5qTAan1hlx4vWaSdubnolAVchfIGKf6vFgLytr2LyndfbM4xO5LNViAyISc13DII3Qp5Xo2_Tj9xAD9iuD2VzTC3HfKP0dri9JZrcbPbNzzrWEM9Z7qELyj-KoV-DKkPq7d4PZO-zSXv_kWRRDCRUgPliCnGlA1H8auF_GNNnq3V-tXXsDA596QGBbXXQlRfNG4A3ByqqokuUlRdc6P-cKAPmB6VqwbTYBB",
     "albums": [
       {
         "id": 101,
-        "name": "Celestial Echoes",
-        "year": 2020,
-        "imageUrl": "https://via.placeholder.com/200x200?text=Celestial+Echoes"
+        "name": "Cleopatra",
+        "year": 2016,
+        "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBu0rHMRWHvFwiD2X7qRBWRx-qr8e_rLZYw7hUaHnfayLQ2xal-zPr_RoAuZdNpP9g9SlyZm-LV5T9eeg4OTJpM3F4sIrrpyxJAFM2XMTZ9z5AGsRjaewGXrQy0XHnM1TWmLqTtdZ64Rtob3ERQISGv8jTs4P7ynrXhOkySgvwqOywZMixPI9KEa9GimQroDOqVCcfhrp9BAwHswjXpbB3nn95YRDIC6AuSq2dpGoA3fl_Dg5x93ycVIxJopgweWDjhkItnNtISQKDI"
       },
       {
         "id": 102,
-        "name": "Nebula Dreams",
-        "year": 2022,
-        "imageUrl": "https://via.placeholder.com/200x200?text=Nebula+Dreams"
+        "name": "The Lumineers",
+        "year": 2012,
+        "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDYJd3qIc4mx8pK-mVbklAchbEl6FmZfY1KcKZM3PXuQ1CrKgd_23XzdWuInqkl4MWJMGgr329FZ385e_L5Cjj7-9bx-Q9IqdJPsSpu4Z2VdaQFfTUZOZCHVahkul9Wy0wTmbaJK0WI6_grB53hvmPNAOPcya1etHPTSp1NOx6Cg7B5Dof_g--ovOJCR0h_ZjXFkCHrBDXtW9iKiIfHsv6Sqq7GkPhtiRdQ-TG1UKEjai2PTo2c-WtrrsOVpQS-gmtzd6khGx7Ud8Nf"
+      },
+      {
+        "id": 103,
+        "name": "III",
+        "year": 2019,
+        "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuD2AESIRIw1ukNDwg0VSXadKxO5fLqrsk5jrHxQEHuxkbVdxhWwkI3xh8Wfv9IoQOxR9LK8nJswkWSAtNwm8s3EIlkESLM7RX6TbvWmSN7AGeTk0FBCoKSANQQ2tE7eVXklVNyLgBbaek_lbHT260MFl1nH0FqE--wNj5N7R8zrSPc-K9PpAlTi405ia8XedENMAozMnXqKVBvgQYpjLm9ZZ_hIssFFOFqE8Z517PXduConhtlwZYxa92Ou8Zg1yXgRBCHBS3XAEqAU"
       }
     ],
     "topTracks": [
       {
         "id": 1001,
-        "title": "Starlight Serenade",
-        "albumId": 101,
-        "duration": "4:15"
+        "title": "Ho Hey",
+        "albumId": 102,
+        "duration": "2:43",
+        "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAo5FbvCsxHeFY_EGnaL_jPweho29snA5Cct8IHs4hM0a25qyG6lvGbYB-_rfRP8cMaYYhe-XLG_5PNg3rAxzUi8e0d1ePnW3PCS5L3y41VO_3k3lqhr-A5Kps4Ez1PMV6UZ35mSHgqF37XovwIB14aA9w1M1N_sJoGVcJ-QeFzfj0sVqprRWZzfxIoRXOWbeSdO3Ke2oh8Z8iNpsVipCEnWLIzuoAjITd-CDDgaooAr5_9Oy2Dt5w-wJlLEOB_-kvAA4ZkKcLsC7jh"
       },
       {
         "id": 1002,
-        "title": "Lost in the Void",
+        "title": "Ophelia",
         "albumId": 101,
-        "duration": "3:50"
+        "duration": "2:40",
+        "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDD0OmjNAyeVYZM8WmKAC-nPLhmMr2qAkRMdzOQgGFwzDDCD7BtIG4lyU4f1coD4GmGAAn4MyfV_pKm-ucSTVjqXqgAEJxkyVDYF_j5QJkCebM4Ccp4CwbwuXVYRN_fXjhFHHLbiLPUghFcX4IN2YDlu7wZ6CdEkHOpDzmQ0zCDsRqC5IWn-je6hg4cchSr8XgrxJd9-F0uOcZ1YzksKOHqovK931UT6mpJiU011PeauNN3PDO0_rzpsB9eiPtY2VyzEtNQrpIpCUbN"
       },
       {
         "id": 1003,
-        "title": "Galactic Tide",
+        "title": "Stubborn Love",
         "albumId": 102,
-        "duration": "5:05"
+        "duration": "4:35",
+        "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAv5m6QskrhlCxN55MRA3qXGVzLycJQWxZFQeJjG05wZrGe19Wyj2V_udQ8MpMhDqWdH9J12vmBhJdrXImTuH7RD7eWFbU17S2uTuNnuzrLgcG5klvoWYP1E8YKCr1eVcyIB3vnRg-hvpM9S1pVRDCt-RkEcaKrjjT67ovHNkUukT-6SssslFV11T5Gz0eFB7Z0kBCZp03fILR2f85w-EgXg6jORt7xjaZH3mxcPXjt5u0Q5owBBLPSOU7-_JrbWOdM8XcB9FZ3wCKy"
       },
       {
         "id": 1004,
-        "title": "Moonlit Path",
-        "duration": "3:30"
+        "title": "Sleep on the Floor",
+        "albumId": 101,
+        "duration": "3:31",
+        "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBU5AcAGyZsJ2E53w41WiAvMmGPca-_9HzQLaXt0hfGeRRNal0vUmHSCp5tsoN9dhPjkst-epgm9cU5-CkigkFhukziGw6P9_krAV9tvJFlzexewnvFLPaQ8cpMXXEgRk11etKSlFEivEw-1Gf0Gj4Vm7PUeFHA1OsxhrML3Z3TfH9M7pk2eC34yo2SYdh5MZHYt2cpkJJOUffcCrze3q52bnH2S0DGCp9QzH-Pah36jaP-TSb7Jc6fNtmYq1-XZ6DVabhwqK-PBOJA"
+      },
+      {
+        "id": 1005,
+        "title": "Angela",
+        "albumId": 101,
+        "duration": "4:03",
+        "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAoei4aV9mEJoe1_Bf2J25Ae_9W2TKsQLQdsjQdo0B9EMSvCRawofniniO2umwD-cg--HUnVwUzT_FZk5mlDbt4BdbBOY4z2WsMlcGuv-qx6YsaLjiob740zeuNUAOesdOPw5ywKgqwS2XHCUYe9mM5-xSB3-au5axVk-_R40ZeuFVqlIzitYN_KbnJskI3f25rfgTp3dooVKh79iKnJBReffecHE2rAZV6yuHUBB7eL3WG6KsOkPB48N0FOk6EhCcl9yqHvEMI1NG-"
       }
     ]
   },
